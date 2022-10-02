@@ -1,5 +1,5 @@
 import { gql, useQuery } from "@apollo/client";
-import { CaretRight, CircleNotch, FileArrowDown, Image, Lightning, MicrosoftTeamsLogo } from "phosphor-react";
+import { CaretRight, CircleNotch, FigmaLogo, FileArrowDown, Image, Lightning, MicrosoftTeamsLogo } from "phosphor-react";
 import ReactPlayer from "react-player";
 import { useGetLessonBySlugQuery } from "../graphql/generated";
 import { Footer } from "./Footer";
@@ -66,15 +66,15 @@ export function VideoContent(props: slugProps) {
               <MicrosoftTeamsLogo size={24} />
               Comunidade do Teams
             </a>
-            <a href=""
+            <a href="https://www.figma.com/file/BeGKKRLr169iPffoTj0NHV/Algar-Lab---ignite-clone?node-id=0%3A1"
               className="p-4 text-sm border border-blue-400 text-blue-400 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-blue-400 hover:text-gray-500 transition-colors">
-              <Lightning size={24} />
-              Link do desafio
+              <FigmaLogo size={24} />
+              Link do Figma
             </a>
           </div>
         </div>
         <div className="gap-8 mt-20 grid grid-cols-2">
-          <a href="" className="bg-gray-700 rounded overflow-hidden flex items-stretch gap-6 hover:bg-gray-600 transition-colors">
+          <a href="https://algarnet-my.sharepoint.com/:f:/g/personal/nicolasss_algartelecom_com_br/Ekt0g5JQhuRDjeI863-0r00BYCiDQyS6pwB5VVt9GCTaOA?e=GibtJl" className="bg-gray-700 rounded overflow-hidden flex items-stretch gap-6 hover:bg-gray-600 transition-colors">
             <div className="bg-green-300 h-full p-6 flex items-center text-gray-600">
               <FileArrowDown size={40} />
             </div>
@@ -86,7 +86,7 @@ export function VideoContent(props: slugProps) {
               <CaretRight size={24} />
             </div>
           </a>
-          <a href="" className="bg-gray-700 rounded overflow-hidden flex items-stretch gap-6 hover:bg-gray-600 transition-colors">
+          <a href="https://algarnet-my.sharepoint.com/:f:/g/personal/nicolasss_algartelecom_com_br/EvxN3LOCaFlNiL2D8U5hmuIBovwS-MVOY6HwvLkWwyYSXQ?e=rQZ3BU" className="bg-gray-700 rounded overflow-hidden flex items-stretch gap-6 hover:bg-gray-600 transition-colors">
             <div className="bg-green-300 h-full p-6 flex items-center text-gray-600">
               <Image size={40} />
             </div>
