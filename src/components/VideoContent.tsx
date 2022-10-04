@@ -74,7 +74,7 @@ export function VideoContent(props: slugProps) {
           </div>
         </div>
         <div className="gap-8 mt-20 grid grid-cols-2">
-          <a target='_blank' href="https://algarnet-my.sharepoint.com/:f:/g/personal/nicolasss_algartelecom_com_br/Ekt0g5JQhuRDjeI863-0r00BYCiDQyS6pwB5VVt9GCTaOA?e=GibtJl" className="bg-gray-700 rounded overflow-hidden flex items-stretch gap-6 hover:bg-gray-600 transition-colors">
+          <a target='_blank' href="https://1drv.ms/u/s!AmJC1xFVjMCZjcJOZ2rriEfAruIq9A?e=bcWrV6" className="bg-gray-700 rounded overflow-hidden flex items-stretch gap-6 hover:bg-gray-600 transition-colors">
             <div className="bg-green-300 h-full p-6 flex items-center text-gray-600">
               <FileArrowDown size={40} />
             </div>
@@ -86,7 +86,7 @@ export function VideoContent(props: slugProps) {
               <CaretRight size={24} />
             </div>
           </a>
-          <a target='_blank' href="https://algarnet-my.sharepoint.com/:f:/g/personal/nicolasss_algartelecom_com_br/EvxN3LOCaFlNiL2D8U5hmuIBovwS-MVOY6HwvLkWwyYSXQ?e=rQZ3BU" className="bg-gray-700 rounded overflow-hidden flex items-stretch gap-6 hover:bg-gray-600 transition-colors">
+          <a target='_blank' href="https://1drv.ms/u/s!AmJC1xFVjMCZjcJPblUkyi7B8ukrQQ?e=xGcAd2" className="bg-gray-700 rounded overflow-hidden flex items-stretch gap-6 hover:bg-gray-600 transition-colors">
             <div className="bg-green-300 h-full p-6 flex items-center text-gray-600">
               <Image size={40} />
             </div>
