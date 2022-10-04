@@ -1,4 +1,3 @@
-import { gql, useQuery } from "@apollo/client";
 import { CaretRight, CircleNotch, FigmaLogo, FileArrowDown, Image, Lightning, MicrosoftTeamsLogo } from "phosphor-react";
 import ReactPlayer from "react-player";
 import { useGetLessonBySlugQuery } from "../graphql/generated";

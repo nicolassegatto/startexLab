@@ -3,7 +3,6 @@ import { VsCodeImage } from "../components/VsCodeImage";
 import { Logo } from "../components/Logo";
 import { Link, useNavigate } from "react-router-dom";
 import { FormEvent, useState } from "react";
-import { gql, useMutation } from "@apollo/client";
 import { useCreateSubscriberMutation } from "../graphql/generated";
 
 export function Subscribe() {
