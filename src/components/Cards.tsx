@@ -28,8 +28,8 @@ export function Cards(props: lesson) {
       </span>
 
       <div className={classNames('rounded border border-gray-500 p-4 mt-2', {
-        'bg-green-600 group-hover:border-white': slugActive,
-        'group-hover:border-green-300': !slugActive
+        'bg-green-500 group-hover:border-white': slugActive,
+        'group-hover:border-green-500': !slugActive
       })}>
 
         <header className='flex items-center justify-between'>
@@ -37,7 +37,7 @@ export function Cards(props: lesson) {
           {isLessonAvaliable ? (
             <span className={classNames('text-sm font-medium flex gap-2', {
               'text-white': slugActive,
-              'text-green-300': !slugActive
+              'text-green-500': !slugActive
             })}>
               <CheckCircle size={20} />
               Conteúdo liberado
@@ -50,7 +50,7 @@ export function Cards(props: lesson) {
 
           <span className={classNames('uppercase text-xs border rounded py-[0.125rem] px-[0.5rem] text-white font-bold', {
             'border-white': slugActive,
-            'border-green-300': !slugActive,
+            'border-green-500': !slugActive,
             'border-blue-500': !isLessonAvaliable
           })}>
             {props.type === 'class' ? 'aula teórica' : ' aula prática'}

@@ -34,7 +34,7 @@ export function Subscribe() {
                 <Logo />
               </Link>
               <h1 className="mt-8 text-[2.5rem] leading-tight">
-                Construa uma <strong className="text-green-300">aplicação completa</strong>, do zero, com <strong className="text-green-300">React JS</strong>
+                Construa uma <strong className="text-green-500">aplicação completa</strong>, do zero, com <strong className="text-green-500">React JS</strong>
               </h1>
               <p className="mt-4 text-gray-200 leading-relaxed">
                 Em apenas uma semana você vai dominar na prática uma das tecnologias mais utilizadas no mercado. Lembre-se, é necesario registrar presença NOS DIAS de mentoria para que a pontuação seja contabilizada.
@@ -57,7 +57,7 @@ export function Subscribe() {
                   onChange={event => setEmail(event.target.value)}
                   value={email}
                 />
-                <button disabled={loading} type="submit" className="mt-4 bg-green-300 uppercase py-4 rounded font-bold text-sm text-gray-500 hover:text-white hover:bg-green-700 transition-colors disabled:opacity-50">
+                <button disabled={loading} type="submit" className="mt-4 bg-green-500 uppercase py-4 rounded font-bold text-sm text-white hover:text-gray-200 hover:bg-green-700 transition-colors disabled:opacity-50">
                   Garantir presença
                 </button>
               </form>

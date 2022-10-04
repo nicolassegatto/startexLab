@@ -52,7 +52,7 @@ export function VideoContent(props: slugProps) {
             <p className="mt-4 text-gray-200 leading-relaxed whitespace-pre-wrap">{data?.lesson.description}</p>
             {data.lesson.teacher && (
               <div className="flex items-center gap-4 mt-6">
-              <img src={data?.lesson.teacher.avatarUrl} alt="teacherImg" className="h-16 w-16 rounded-full border-2 border-green-300" />
+              <img src={data?.lesson.teacher.avatarUrl} alt="teacherImg" className="h-16 w-16 rounded-full border-2 border-green-500" />
               <div className="leading-relaxed">
                 <strong className="font-bold text-2xl block">{data?.lesson.teacher.name}</strong>
                 <span className="text-gray-200 text-sm block whitespace-pre-wrap">{data?.lesson.teacher.bio}</span>
@@ -62,7 +62,7 @@ export function VideoContent(props: slugProps) {
           </div>
           <div className="flex flex-col gap-4">
             <a href="https://teams.microsoft.com/_#/conversations/19:d392b4c30811491ea5928ef26ac449fe@thread.v2?ctx=chat" target='_blank'
-              className="p-4 text-sm bg-green-300 text-gray-600 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-green-700 hover:text-gray-200 transition-colors">
+              className="p-4 text-sm bg-green-500 text-white flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-green-700 hover:text-gray-200 transition-colors">
               <MicrosoftTeamsLogo size={24} />
               Comunidade do Teams
             </a>
@@ -75,7 +75,7 @@ export function VideoContent(props: slugProps) {
         </div>
         <div className="gap-8 mt-20 grid grid-cols-2">
           <a target='_blank' href="https://1drv.ms/u/s!AmJC1xFVjMCZjcJOZ2rriEfAruIq9A?e=bcWrV6" className="bg-gray-700 rounded overflow-hidden flex items-stretch gap-6 hover:bg-gray-600 transition-colors">
-            <div className="bg-green-300 h-full p-6 flex items-center text-gray-600">
+            <div className="bg-green-500 h-full p-6 flex items-center text-white">
               <FileArrowDown size={40} />
             </div>
             <div className="py-6 leading-relaxed">
@@ -87,7 +87,7 @@ export function VideoContent(props: slugProps) {
             </div>
           </a>
           <a target='_blank' href="https://1drv.ms/u/s!AmJC1xFVjMCZjcJPblUkyi7B8ukrQQ?e=xGcAd2" className="bg-gray-700 rounded overflow-hidden flex items-stretch gap-6 hover:bg-gray-600 transition-colors">
-            <div className="bg-green-300 h-full p-6 flex items-center text-gray-600">
+            <div className="bg-green-500 h-full p-6 flex items-center text-white">
               <Image size={40} />
             </div>
             <div className="py-6 leading-relaxed">
