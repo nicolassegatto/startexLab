@@ -3,9 +3,11 @@ import { VsCodeImage } from "../components/VsCodeImage";
 import { Logo } from "../components/Logo";
 import { Link, useNavigate } from "react-router-dom";
 import { FormEvent, useState } from "react";
-import { useCreateSubscriberMutation } from "../graphql/generated";
+import { useCreateSubscriberMutation, useGetSubsQuery } from "../graphql/generated";
 
 export function Subscribe() {
+  const {data} = useGetSubsQuery()
+  console.log(data)
   const navigate = useNavigate()
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
